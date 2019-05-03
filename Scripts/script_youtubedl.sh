@@ -18,13 +18,13 @@ then
 	if echo "$video" | grep "N"
 	then
 		echo "Téléchargement en cours"
-		youtube-dl -x "$lien" > /dev/null 2>&1
+		youtube-dl -F 136 "$lien" > /dev/null 2>&1
 		echo "Téléchargement fini !"
 
 	elif echo "$video" | grep "n"
 	then
 		echo "Téléchargement en cours"
-		youtube-dl -x "$lien" > /dev/null 2>&1
+		youtube-dl -F 136 "$lien" > /dev/null 2>&1
 		echo "Téléchargement fini !"
 	else
 		echo "Téléchargement en cours"
@@ -36,13 +36,13 @@ else
 	if echo "$video" | grep "N"
 	then
 		echo "Téléchargement en cours"
-		youtube-dl -x "$lien" > /dev/null 2>&1
+		youtube-dl -F 136 "$lien" > /dev/null 2>&1
 		echo "Téléchargement fini !"
 
 	elif echo "$video" | grep "n"
 	then
 		echo "Téléchargement en cours"
-		youtube-dl -x "$lien" > /dev/null 2>&1
+		youtube-dl -F 136 "$lien" > /dev/null 2>&1
 		echo "Téléchargement terminé !"
 
 	else
